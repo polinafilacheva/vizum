@@ -144,6 +144,7 @@ header {
 
   color: #fff;
   }
+
 p {
   width: 700px;
   margin-left: 40px;
@@ -156,6 +157,7 @@ p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 48px;
   }
+
 .paragraph hr {
   width: 778px;
   margin-top: 41px;
@@ -169,6 +171,7 @@ footer {
 
   align-content: normal;
   }
+
 footer > img {
   width: 100px;
   }
