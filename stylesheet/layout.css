@@ -20,25 +20,27 @@ header {
 }
 
 .tupe h1 {
-    padding-top: 30px;
+  padding-top: 30px;
 
   text-align: center;
   text-transform: uppercase;
 
   color: #ffffff;
 
-    font-family:'PT Sans Narrow', sans-serif;
-    font-size: 7.4rem;
+  font-family:'PT Sans Narrow', sans-serif;
+  font-size: 135px;
 }
- .button {
-   padding-top: 30px;
 
- text-align: center;
+.button {
+  padding-top: 30px;
+
+  text-align: center;
 }
 
 .button a {
   display: inline-block;
 
+  width: 202px;
   margin-right: 20px;
   padding: 11px 16px;
 
@@ -53,21 +55,22 @@ header {
 }
 
 p {
-padding-top: 30px;
+  padding-top: 30px;
 
-text-align: center;
+  text-align: center;
 
-color: #fff;
+  color: #fff;
 
-font-family: 'PT Sans Narrow', sans-serif;
-font-size: 55px;
-
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 55px;
 }
+
 .button hr {
   display: none;
 
   color: #fff;
 }
+
 .paragraph hr {
   margin-top: 41px;
 
@@ -75,5 +78,11 @@ font-size: 55px;
 }
 
 footer {
+  margin-left: 705px;
+
   justify-content: center;
+}
+
+footer > img {
+  width: 70px;
 }
