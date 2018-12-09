@@ -1,3 +1,79 @@
 body {
   background: #006DA9;
+
+  font-family:'PT Sans Narrow', sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  position: relative;
+
+  display: flex;
+
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tupe h1 {
+    padding-top: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 7.4rem;
+}
+ .button {
+   padding-top: 30px;
+
+ text-align: center;
+}
+
+.button a {
+  display: inline-block;
+
+  margin-right: 20px;
+  padding: 11px 16px;
+
+  text-decoration: none;
+
+  color: #fff;
+  border: 1px #fff solid;
+  border-radius: 15px;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 50px;
+}
+
+p {
+padding-top: 30px;
+
+text-align: center;
+
+color: #fff;
+
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 55px;
+
+}
+.button hr {
+  display: none;
+
+  color: #fff;
+}
+.paragraph hr {
+  margin-top: 41px;
+
+  color: #fff;
+}
+
+footer {
+  justify-content: center;
 }
