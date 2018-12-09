@@ -86,3 +86,90 @@ footer {
 footer > img {
   width: 70px;
 }
+
+
+@media (max-width: 320px) {
+header {
+  position: relative;
+
+  display: flex;
+
+  margin-top: 30px;
+  margin-left: 395px;
+
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+.tupe h1 {
+  width: 900px;
+  margin-left: -66px;
+  padding-top: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 75px;
+
+  align-content: 40px;
+  }
+
+.button a {
+  display: inline-flex;
+
+  width: 179px;
+  margin-top: 30px;
+  margin-left: 200px;
+  padding: 21px 90px;
+
+  text-decoration: none;
+
+  color: #fff;
+  border: 1px #fff solid;
+  border-radius: 15px;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 64px;
+  }
+
+.button hr {
+  display: flex;
+
+  width: 776px;
+  margin-top: 70px;
+
+  color: #fff;
+  }
+p {
+  width: 700px;
+  margin-left: 40px;
+  padding-top: 30px;
+
+  text-align: left;
+
+  color: #fff;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 48px;
+  }
+.paragraph hr {
+  width: 778px;
+  margin-top: 41px;
+
+  color: #fff;
+  }
+
+footer {
+  width: 400px;
+  margin-left: 230px;
+
+  align-content: normal;
+  }
+footer > img {
+  width: 100px;
+  }
+}
