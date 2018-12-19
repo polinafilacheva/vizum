@@ -1,152 +1,211 @@
-body {
-  font-family:'PT Sans Narrow', sans-serif;
-}
+
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
- {
-  position: relative;
-
-  display: flex;
-
-  flex-flow: column nowrap;
-  align-items: center;
-
-}
-
-.tupe h1 {
-  padding-top: 30px;
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #ffffff;
-
-  font-family:'PT Sans Narrow', sans-serif;
-  font-size: 135px;
-}
-
-
-
-p {
-  padding-top: 30px;
-
-  text-align: center;
-
-  color: #fff;
-
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 55px;
-}
-
-.button hr {
-  display: none;
-
-  color: #fff;
-}
-
-.paragraph hr {
-  margin-top: 41px;
-
-  color: #fff;
-}
-
-footer {
-  margin-left: 705px;
-
-  justify-content: center;
-}
-
-
-
-@media (max-width: 320px) {
 header {
-  position: relative;
-
   display: flex;
-
-  margin-top: 30px;
-  margin-left: 395px;
 
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
-  }
+}
 
-.tupe h1 {
-  width: 900px;
-  margin-left: -41px;
-  padding-top: 30px;
+.big {
+  display: none;
+}
 
-  text-align: center;
-  text-transform: uppercase;
+.big-last {
+  display: none;
+}
 
-  color: #ffffff;
-
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 75px;
-
-  align-content: 40px;
-  }
-
-.button a {
-  display: inline-flex;
-
-  width: 179px;
-  margin-top: 30px;
-  margin-left: 232px;
-  padding: 21px 90px;
-
-  text-decoration: none;
-
-  color: #fff;
-  border: 1px #fff solid;
-  border-radius: 15px;
-
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 64px;
-  }
-
-.button hr {
+.top {
   display: flex;
 
-  width: 833px;
-  margin-top: 70px;
+  width: 100%;
+}
 
-  color: #fff;
-  }
+.top-last {
+  display: flex;
+
+  width: 100%;
+  height: 1489px;
+  margin-top: -55px;
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.tupe-first {
+  display: block;
+
+  margin-top: -1410px;
+
+  text-align: center;
+
+  font-size: 55px;
+
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  flex-flow: column nowrap;
+
+}
+
+h3 {
+  display: flex;
+
+  padding-top: 55px;
+  padding-left: 68px;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h2 {
+  flex-direction: column;
+
+  padding-top: 10px;
+  padding-left: 20px;
+
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.number {
+  padding-top: 20px;
+}
+
+.paragraph {
+  width: 226px;
+  margin-top: -463px;
+  padding-left: 71px;
+
+  font-family:  'Alegreya Sans', sans-serif;
+  font-size: 17px;
+}
 
 p {
-  width: 700px;
-  margin-left: 40px;
-  padding-top: 30px;
+  padding-top: 59px;
+}
 
-  text-align: left;
+.paragraph2 {
+  width: 226px;
+  margin-top: -25px;
+  padding-left: 71px;
 
-  color: #fff;
+  font-family:  'Alegreya Sans', sans-serif;
+  font-size: 17px;
+}
 
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 48px;
+.paragraph3 {
+  width: 226px;
+  margin-top: -25px;
+  padding-left: 71px;
+
+  font-family:  'Alegreya Sans', sans-serif;
+  font-size: 17px;
+}
+
+.phone {
+  font-size: 12px;
+}
+
+
+@media (min-width: 768px) {
+
+  h1 {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
-.paragraph hr {
-  width: 833px;
-  margin-top: 41px;
+ .top {
+   display: flex;
 
-  color: #fff;
+   width: 768px;
   }
 
-footer {
-  width: 400px;
-  margin-left: 263px;
+ .top-last {
+   display: flex;
 
-  align-content: normal;
+   width: 768px;
+   margin-top: -55px;
   }
 
-footer > img {
-  width: 100px;
+ .tupe-first {
+   display: flex;
+
+   text-align: center;
+
+   font-size: 104px;
   }
+
+  h3 {
+    display: flex;
+
+    height: 70px;
+    padding-top: 55px;
+    padding-left: 231px;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+  }
+
+  .second {
+    padding-right: 30px;
+  }
+
+  h2 {
+    flex-direction: column;
+
+    margin-top: -34px;
+    padding-left: 221px;
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+  }
+
+ .number {
+   padding-top: 30px;
+ }
+
+ .paragraph {
+    width: 226px;
+    margin-top: -557px;
+    padding-left: 284px;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+ }
+
+ p {
+   padding-top: 72px;
+ }
+
+ .paragraph2 {
+     width: 226px;
+     margin-top: -53px;
+     padding-left: 282px;
+
+     font-family: 'Alegreya Sans', sans-serif;
+     font-size: 20px;
+ }
+
+ .paragraph3 {
+   width: 226px;
+    margin-top: -25px;
+    padding-left: 282px;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+ }
+
+ .phone {
+   font-size: 14px;
+ }
 }
