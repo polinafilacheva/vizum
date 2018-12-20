@@ -4,7 +4,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body {
+  overflow-x: hidden;
+}
 header {
   display: flex;
 
@@ -21,119 +23,265 @@ header {
 }
 
 .top {
-  display: flex;
-
-  width: 100%;
+  width: 103vw;
 }
 
 .top-last {
-  display: flex;
+      position: absolute;
+      z-index: -1;
+      top: 185px;
 
-  width: 100%;
-  height: 1489px;
-  margin-top: -55px;
-}
-
-h1 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 103vw;
 }
 
 .tupe-first {
   display: block;
 
-  margin-top: -1410px;
+  padding-top: 10vw;
 
   text-align: center;
 
-  font-size: 55px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 11vw;
+}
+
+.card {
+  display: flex;
+
+  margin: 1vw 14vw;
 
   align-items: center;
-  align-content: space-around;
-  justify-content: center;
-  flex-flow: column nowrap;
+}
 
+h2 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 25vw;
+  font-weight: 400;
+}
+
+.card p {
+  margin-left: 1vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 5vw;
 }
 
 h3 {
   display: flex;
 
-  padding-top: 55px;
-  padding-left: 68px;
+  height: 11vw;
+  padding-top: 10vw;
+  padding-left: 25vw;
 
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 26px;
+  font-size: 7vw;
   font-weight: 700;
+}
+
+.tupe2 p {
+  width: 62vw;
+  margin-top: 4vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 5vw;
+}
+
+.tupe3 p {
+  width: 62vw;
+  margin-top: 3vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 5vw;
+}
+
+
+@media (min-width: 321px) {
+
+  .top-last {
+    width: 103vw;
+    height: 397vw;
+        top: -15vw;
+  }
+
+  .tupe-first {
+    display: flex;
+
+    text-align: center;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 11vw;
+  }
+
+  .card {
+    display: flex;
+
+    margin: 2vw 13vw;
+
+    align-items: center;
+  }
+
+  h2 {
+   font-family: 'Ubuntu Condensed', sans-serif;
+   font-size: 21vw;
+   font-weight: 600;
+  }
+
+  .card p {
+   margin-left: 3vw;
+
+   font-family: 'Alegreya Sans', sans-serif;
+   font-size: 4vw;
+  }
+
+ h3 {
+   display: flex;
+
+   height: 7vw;
+   margin-left: 0vw;
+
+   font-family: 'Alegreya Sans', sans-serif;
+   font-size: 7vw;
+   font-weight: 700;
+}
+.tupe2 {
+  margin-top: -5vw;
+}
+.tupe2 p {
+  width: 62vw;
+  margin-top: 6vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 4vw;
+}
+
+.tupe3 p {
+  width: 62vw;
+  margin-top: 6vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 4vw;
+}
+
+
+
+
+
+}
+@media (min-width: 769px) {
+  .top {
+    display: none;
+   }
+
+  .top-last {
+    position: absolute;
+    z-index: -1;
+    top: -228vw;
+
+   width: 100vw;
+   }
+
+  .big {
+    display: block;
+
+    width: 100vw;
+    height: auto;
+  }
+
+  .left {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1vw;
+    max-width: 51vw;
+    min-width: 51vw;
+    margin-bottom: inherit;
+  }
+
+  .raite {
+    display: block;
+    vertical-align: top;
+    margin-left: 45vw;
+    margin-top: -74vw;
+    max-width: 51vw;
+  }
+.tupe-first {
+  display: flex;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 10vw;
+    margin-top: -7vw;
+}
+
+.card {
+  display: flex;
+    margin: -1vw 2vw;
+    align-items: center;
 }
 
 h2 {
-  flex-direction: column;
-
-  padding-top: 10px;
-  padding-left: 20px;
-
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 100px;
-  font-weight: 700;
+      font-size: 15vw;
+      font-weight: 600;
 }
 
-.number {
-  padding-top: 20px;
+.card p {
+  margin-left: 3vw;
+      font-family: 'Alegreya Sans', sans-serif;
+      font-size: 3vw;
 }
 
-.paragraph {
-  width: 226px;
-  margin-top: -463px;
-  padding-left: 71px;
+h3 {
+  display: flex;
+    height: 9vw;
 
-  font-family:  'Alegreya Sans', sans-serif;
-  font-size: 17px;
-}
-
-p {
-  padding-top: 59px;
-}
-
-.paragraph2 {
-  width: 226px;
-  margin-top: -25px;
-  padding-left: 71px;
-
-  font-family:  'Alegreya Sans', sans-serif;
-  font-size: 17px;
-}
-
-.paragraph3 {
-  width: 226px;
-  margin-top: -25px;
-  padding-left: 71px;
-
-  font-family:  'Alegreya Sans', sans-serif;
-  font-size: 17px;
-}
-
-.phone {
-  font-size: 12px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-left: -13vw;
+    margin-top: -2vw;
 }
 
 
-@media (min-width: 768px) {
 
+.tupe3{
+margin-top: -5vw;
+}
+
+.tupe2 p {
+  width: 42vw;
+      margin-top: 1vw;
+      margin-left: 12vw;
+      font-family: 'Alegreya Sans', sans-serif;
+      font-size: 3vw;
+}
+
+.tupe3 p {
+  width: 42vw;
+  margin-top: 3vw;
+  margin-left: 12vw;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 3vw;
+}
+  }
+}
+@media (min-width: 1041px) {
   h1 {
    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
  .top {
-   display: flex;
-
-   width: 768px;
+   display: none;
   }
 
  .top-last {
-   display: flex;
-
-   width: 768px;
-   margin-top: -55px;
+   display: none;
   }
+ .big {
+   display: flex;
+ }
 
  .tupe-first {
    display: flex;
@@ -142,70 +290,17 @@ p {
 
    font-size: 104px;
   }
+}
 
-  h3 {
-    display: flex;
-
-    height: 70px;
-    padding-top: 55px;
-    padding-left: 231px;
-
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 44px;
-    font-weight: 700;
+@media (min-width: 1441px) {
+  h1 {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
   }
+ .tupe-first {
+   display: flex;
 
-  .second {
-    padding-right: 30px;
+   text-align: center;
+
+   font-size: 104px;
   }
-
-  h2 {
-    flex-direction: column;
-
-    margin-top: -34px;
-    padding-left: 221px;
-
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 120px;
-    font-weight: 700;
-  }
-
- .number {
-   padding-top: 30px;
- }
-
- .paragraph {
-    width: 226px;
-    margin-top: -557px;
-    padding-left: 284px;
-
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 20px;
- }
-
- p {
-   padding-top: 72px;
- }
-
- .paragraph2 {
-     width: 226px;
-     margin-top: -53px;
-     padding-left: 282px;
-
-     font-family: 'Alegreya Sans', sans-serif;
-     font-size: 20px;
- }
-
- .paragraph3 {
-   width: 226px;
-    margin-top: -25px;
-    padding-left: 282px;
-
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 20px;
- }
-
- .phone {
-   font-size: 14px;
- }
 }
