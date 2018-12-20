@@ -4,6 +4,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -27,9 +28,9 @@ header {
 }
 
 .top-last {
-      position: absolute;
-      z-index: -1;
-      top: 185px;
+  position: absolute;
+  z-index: -1;
+  top: 185px;
 
   width: 103vw;
 }
@@ -100,9 +101,10 @@ h3 {
 @media (min-width: 321px) {
 
   .top-last {
+    top: -15vw;
+
     width: 103vw;
     height: 397vw;
-        top: -15vw;
   }
 
   .tupe-first {
@@ -117,72 +119,71 @@ h3 {
   .card {
     display: flex;
 
-    margin: 2vw 13vw;
+    margin: 2vw 16vw;
 
     align-items: center;
   }
 
   h2 {
-   font-family: 'Ubuntu Condensed', sans-serif;
-   font-size: 21vw;
-   font-weight: 600;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 21vw;
+    font-weight: 600;
   }
 
   .card p {
-   margin-left: 3vw;
+    margin-left: 3vw;
 
-   font-family: 'Alegreya Sans', sans-serif;
-   font-size: 4vw;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
   }
 
  h3 {
-   display: flex;
+    display: flex;
 
-   height: 7vw;
-   margin-left: 0vw;
+    height: 7vw;
+    margin-left: 3vw;
 
-   font-family: 'Alegreya Sans', sans-serif;
-   font-size: 7vw;
-   font-weight: 700;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 7vw;
+    font-weight: 700;
+  }
+
+  .tupe2 {
+    margin-top: -5vw;
+  }
+  .tupe2 p {
+    width: 54vw;
+    margin-top: 6vw;
+    margin-left: 28vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+  }
+
+  .tupe3 p {
+    width: 53vw;
+    margin-top: 6vw;
+    margin-left: 28vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+  }
 }
-.tupe2 {
-  margin-top: -5vw;
-}
-.tupe2 p {
-  width: 62vw;
-  margin-top: 6vw;
-  margin-left: 25vw;
-
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 4vw;
-}
-
-.tupe3 p {
-  width: 62vw;
-  margin-top: 6vw;
-  margin-left: 25vw;
-
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 4vw;
-}
 
 
-
-
-
-}
 @media (min-width: 769px) {
+
   .top {
     display: none;
-   }
+  }
 
   .top-last {
     position: absolute;
     z-index: -1;
     top: -228vw;
 
-   width: 100vw;
-   }
+    width: 100vw;
+  }
 
   .big {
     display: block;
@@ -193,114 +194,94 @@ h3 {
 
   .left {
     display: inline-block;
-    vertical-align: top;
-    margin-left: 1vw;
-    max-width: 51vw;
+
     min-width: 51vw;
+    max-width: 51vw;
     margin-bottom: inherit;
+    margin-left: 1vw;
+
+    vertical-align: top;
   }
 
   .raite {
     display: block;
-    vertical-align: top;
-    margin-left: 45vw;
-    margin-top: -74vw;
+
     max-width: 51vw;
+    margin-top: -74vw;
+    margin-left: 45vw;
+
+    vertical-align: top;
   }
-.tupe-first {
-  display: flex;
+
+  .tupe-first {
+    display: flex;
+
+    margin-top: -7vw;
+
     text-align: center;
+
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 10vw;
-    margin-top: -7vw;
-}
+  }
 
-.card {
-  display: flex;
+  .card {
+    display: flex;
+
     margin: -1vw 2vw;
+
     align-items: center;
-}
+  }
 
-h2 {
-  font-family: 'Ubuntu Condensed', sans-serif;
-      font-size: 15vw;
-      font-weight: 600;
-}
+  h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15vw;
+    font-weight: 600;
+  }
 
-.card p {
-  margin-left: 3vw;
-      font-family: 'Alegreya Sans', sans-serif;
-      font-size: 3vw;
-}
+  .card p {
+    margin-left: 3vw;
 
-h3 {
-  display: flex;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.85;
+  }
+
+   h3 {
+    display: flex;
+
     height: 9vw;
+    margin-top: -2vw;
+    margin-left: -13vw;
 
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 4vw;
     font-weight: 700;
-    margin-left: -13vw;
-    margin-top: -2vw;
-}
-
-
-
-.tupe3{
-margin-top: -5vw;
-}
-
-.tupe2 p {
-  width: 42vw;
-      margin-top: 1vw;
-      margin-left: 12vw;
-      font-family: 'Alegreya Sans', sans-serif;
-      font-size: 3vw;
-}
-
-.tupe3 p {
-  width: 42vw;
-  margin-top: 3vw;
-  margin-left: 12vw;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 3vw;
-}
-  }
-}
-@media (min-width: 1041px) {
-  h1 {
-   font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
- .top {
-   display: none;
+  .tupe2 p {
+    width: 40vw;
+    margin-top: 1vw;
+    margin-left: 12vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.85;
   }
 
- .top-last {
-   display: none;
+  .tupe3 p {
+    width: 40vw;
+    margin-top: 1vw;
+    margin-left: 12vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.85;
   }
- .big {
-   display: flex;
- }
-
- .tupe-first {
-   display: flex;
-
-   text-align: center;
-
-   font-size: 104px;
+  .tupe3 {
+    margin-top: -5vw;
   }
-}
 
-@media (min-width: 1441px) {
-  h1 {
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-  }
- .tupe-first {
-   display: flex;
-
-   text-align: center;
-
-   font-size: 104px;
+  .tupe3 h3 {
+    margin-top: 2vw;
   }
 }
