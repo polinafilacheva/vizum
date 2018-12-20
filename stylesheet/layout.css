@@ -24,21 +24,23 @@ header {
 }
 
 .top {
-  width: 103vw;
+  width: 113vw;
 }
 
 .top-last {
   position: absolute;
   z-index: -1;
-  top: 185px;
+  top: 133vw;
 
-  width: 103vw;
+  width: 114vw;
+  height: 438vw;
 }
 
 .tupe-first {
   display: block;
 
-  padding-top: 10vw;
+  padding-top: 9vw;
+  padding-left: 10vw;
 
   text-align: center;
 
@@ -54,12 +56,6 @@ header {
   align-items: center;
 }
 
-h2 {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 25vw;
-  font-weight: 400;
-}
-
 .card p {
   margin-left: 1vw;
 
@@ -67,9 +63,23 @@ h2 {
   font-size: 5vw;
 }
 
-h3 {
-  display: flex;
+h2 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 25vw;
+  font-weight: 600;
+}
 
+h3 {
+  height: 11vw;
+  padding-top: 8vw;
+  padding-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+h4 {
   height: 11vw;
   padding-top: 10vw;
   padding-left: 25vw;
@@ -77,6 +87,15 @@ h3 {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 7vw;
   font-weight: 700;
+}
+
+.tupe1 p {
+  width: 62vw;
+  margin-top: 4vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 5vw;
 }
 
 .tupe2 p {
@@ -97,18 +116,31 @@ h3 {
   font-size: 5vw;
 }
 
+.tupe4 p {
+  width: 62vw;
+  margin-top: 4vw;
+  margin-left: 25vw;
+
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 5vw;
+}
+
+a {
+  color: black;
+}
+
 
 @media (min-width: 321px) {
 
   .top-last {
-    top: -15vw;
+    top: 98vw;
 
-    width: 103vw;
-    height: 397vw;
+    width: 113vw;
+    height: 420vw;
   }
 
   .tupe-first {
-    display: flex;
+    padding-left: 4vw;
 
     text-align: center;
 
@@ -124,12 +156,6 @@ h3 {
     align-items: center;
   }
 
-  h2 {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 21vw;
-    font-weight: 600;
-  }
-
   .card p {
     margin-left: 3vw;
 
@@ -137,9 +163,13 @@ h3 {
     font-size: 4vw;
   }
 
- h3 {
-    display: flex;
+  h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 21vw;
+    font-weight: 600;
+  }
 
+  h3 {
     height: 7vw;
     margin-left: 3vw;
 
@@ -148,9 +178,24 @@ h3 {
     font-weight: 700;
   }
 
-  .tupe2 {
-    margin-top: -5vw;
+  h4 {
+    width: 62vw;
+    margin-top: -2vw;
+    margin-left: 3vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 7vw;
   }
+
+  .tupe1 p {
+    width: 54vw;
+    margin-top: 6vw;
+    margin-left: 28vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+  }
+
   .tupe2 p {
     width: 54vw;
     margin-top: 6vw;
@@ -158,6 +203,28 @@ h3 {
 
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 4vw;
+  }
+
+  .tupe3 p {
+    width: 53vw;
+    margin-top: 6vw;
+    margin-left: 28vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+  }
+
+  .tupe4 p {
+    width: 54vw;
+    margin-top: 6vw;
+    margin-left: 28vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+  }
+
+  .tupe2 {
+    margin-top: -1vw;
   }
 
   .tupe3 p {
@@ -180,16 +247,27 @@ h3 {
   .top-last {
     position: absolute;
     z-index: -1;
-    top: -228vw;
+    top: -196vw;
 
-    width: 100vw;
+    width: 102vw;
   }
 
   .big {
     display: block;
 
-    width: 100vw;
+    width: 101vw;
     height: auto;
+  }
+
+  .tupe-first {
+    height: 18vw;
+    margin-top: -7vw;
+    margin-left: -6vw;
+
+    text-align: center;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 10vw;
   }
 
   .left {
@@ -198,30 +276,15 @@ h3 {
     min-width: 51vw;
     max-width: 51vw;
     margin-bottom: inherit;
-    margin-left: 1vw;
-
-    vertical-align: top;
+    margin-left: 3vw;
   }
 
   .raite {
     display: block;
 
     max-width: 51vw;
-    margin-top: -74vw;
+    margin-top: -83.9vw;
     margin-left: 45vw;
-
-    vertical-align: top;
-  }
-
-  .tupe-first {
-    display: flex;
-
-    margin-top: -7vw;
-
-    text-align: center;
-
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 10vw;
   }
 
   .card {
@@ -232,25 +295,22 @@ h3 {
     align-items: center;
   }
 
+  .card p {
+    margin-left: 3vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.95;
+  }
+
   h2 {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 15vw;
     font-weight: 600;
   }
 
-  .card p {
-    margin-left: 3vw;
-
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 3vw;
-    line-height: 0.85;
-  }
-
-   h3 {
-    display: flex;
-
-    height: 9vw;
-    margin-top: -2vw;
+  h4 {
+    margin-top: -5vw;
     margin-left: -13vw;
 
     font-family: 'Alegreya Sans', sans-serif;
@@ -258,30 +318,71 @@ h3 {
     font-weight: 700;
   }
 
-  .tupe2 p {
-    width: 40vw;
+   h3 {
+    margin-left: -13vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+  }
+
+  .tupe1 p {
+    width: 42vw;
+    margin-top: -1vw;
+    margin-left: 12vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.95;
+  }
+
+  .tupe4 p {
+    width: 39vw;
     margin-top: 1vw;
     margin-left: 12vw;
 
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 3vw;
-    line-height: 0.85;
+    line-height: 0.95;
+  }
+
+  .tupe2 p {
+    width: 40vw;
+    margin-top: 3vw;
+    margin-left: 12vw;
+
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vw;
+    line-height: 0.95;
+
   }
 
   .tupe3 p {
-    width: 40vw;
-    margin-top: 1vw;
-    margin-left: 12vw;
+    width: 59vw;
+    margin-top: 4vw;
+    margin-left: 21vw;
 
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 3vw;
-    line-height: 0.85;
+    line-height: 0.95;
   }
+
+  .tupe2 h3 {
+    margin-top: -3vw;
+  }
+
   .tupe3 {
     margin-top: -5vw;
   }
 
   .tupe3 h3 {
-    margin-top: 2vw;
+    margin-top: 3vw;
+    margin-left: -4vw;
+
+    font-size: 7vw;
+  }
+
+  .tupe3 br {
+    display: none;
   }
 }
