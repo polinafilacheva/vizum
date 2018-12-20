@@ -7,6 +7,8 @@
 
 body {
   overflow-x: hidden;
+
+  background-color: #DFF1EC;
 }
 header {
   display: flex;
@@ -189,7 +191,7 @@ a {
 
   .tupe1 p {
     width: 54vw;
-    margin-top: 6vw;
+    margin-top: 3vw;
     margin-left: 28vw;
 
     font-family: 'Alegreya Sans', sans-serif;
@@ -348,7 +350,7 @@ a {
 
   .tupe2 p {
     width: 40vw;
-    margin-top: 3vw;
+    margin-top: 2vw;
     margin-left: 12vw;
 
     font-family: 'Alegreya Sans', sans-serif;
@@ -368,7 +370,7 @@ a {
   }
 
   .tupe2 h3 {
-    margin-top: -3vw;
+    margin-top: -2vw;
   }
 
   .tupe3 {
